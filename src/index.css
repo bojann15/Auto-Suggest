@@ -6,8 +6,44 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.App{
+  max-width: 1230px;
+  min-height: 100vh;
+  margin: 0 auto  ;
+  padding: 0 20px;
+  box-shadow: 0 0 35px #eee;
+}
+.suggestion{
+  cursor: pointer;
+  padding: 0 5px;
+  width: 700px;
+  height: 30px;
+  position: inherit;
+  margin-left: 200px;
+  outline: rgb(3, 165, 206);
+  border-bottom: 1px solid darkblue;
+  border-left: 1px solid darkblue;
+  border-right: 1px solid darkblue;
+  letter-spacing: 1px;
+  font-size: large;
+  font-style: italic;
+}
+.suggestion:hover{
+  background-color: lightblue;
+}
+.input{
+  width: 700px;
+  height: 40px;
+  margin: 80px 200px;
+  margin-bottom: 0px;
+  padding: 0 5px;
+  outline: rgb(3, 165, 206);
+  border: 1px solid rgb(3, 165, 206);
+  letter-spacing: 1px;
+  font-size: large;
+  font-weight: bold;
 }
